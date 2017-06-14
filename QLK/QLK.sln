@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{CDC6DDDE-208A-493B-A97E-4D10414A9450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{05F120F1-09DA-4602-9C46-AEED946CFBC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{AAC73060-C686-42FE-87F0-82725D30FE27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC6DDDE-208A-493B-A97E-4D10414A9450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC6DDDE-208A-493B-A97E-4D10414A9450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC6DDDE-208A-493B-A97E-4D10414A9450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC6DDDE-208A-493B-A97E-4D10414A9450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F120F1-09DA-4602-9C46-AEED946CFBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F120F1-09DA-4602-9C46-AEED946CFBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F120F1-09DA-4602-9C46-AEED946CFBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F120F1-09DA-4602-9C46-AEED946CFBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC73060-C686-42FE-87F0-82725D30FE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC73060-C686-42FE-87F0-82725D30FE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC73060-C686-42FE-87F0-82725D30FE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC73060-C686-42FE-87F0-82725D30FE27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
