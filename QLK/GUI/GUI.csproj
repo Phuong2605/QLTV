@@ -72,12 +72,6 @@
     <Compile Include="UCTuaSach.Designer.cs">
       <DependentUpon>UCTuaSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCSach.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCSach.Designer.cs">
-      <DependentUpon>UCSach.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,9 +93,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCTuaSach.resx">
       <DependentUpon>UCTuaSach.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UCSach.resx">
-      <DependentUpon>UCSach.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
