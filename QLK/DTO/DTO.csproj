@@ -40,7 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connect.cs" />
+    <Compile Include="NhaXuatBan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheLoai.cs" />
+    <Compile Include="TuaSach.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{05f120f1-09da-4602-9c46-aeed946cfbc6}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

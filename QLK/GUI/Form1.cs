@@ -16,5 +16,20 @@ namespace GUI
         {
             InitializeComponent();
         }
+        public void showControlND(System.Windows.Forms.Control obj)
+        {
+            RenderBody.Controls.Clear();
+            obj.Dock = DockStyle.Fill;
+            RenderBody.Controls.Add(obj);
+        }
+
+        private void btnSach_Click(object sender, EventArgs e)
+        {
+            UserControl us = new UCSach();
+            showControlND(us);
+            btnSach.BackColor = Color.Turquoise;
+            btnNghiepVu.BackColor = Color.PaleTurquoise;
+            btnMTS.BackColor = Color.PaleTurquoise;
+        }
     }
 }

@@ -52,10 +52,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCNhaXuatBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNhaXuatBan.Designer.cs">
+      <DependentUpon>UCNhaXuatBan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCTheLoai.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCTheLoai.Designer.cs">
+      <DependentUpon>UCTheLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCTuaSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCTuaSach.Designer.cs">
+      <DependentUpon>UCTuaSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSach.Designer.cs">
+      <DependentUpon>UCSach.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCNhaXuatBan.resx">
+      <DependentUpon>UCNhaXuatBan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,7 +92,17 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCTheLoai.resx">
+      <DependentUpon>UCTheLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCTuaSach.resx">
+      <DependentUpon>UCTuaSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCSach.resx">
+      <DependentUpon>UCSach.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -78,6 +115,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\â.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ưew.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{05f120f1-09da-4602-9c46-aeed946cfbc6}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{aac73060-c686-42fe-87f0-82725d30fe27}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
