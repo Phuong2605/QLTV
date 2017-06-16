@@ -33,6 +33,8 @@
             this.thểLoạiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhàXuấtBảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RB1 = new System.Windows.Forms.Panel();
+            this.tácGiảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cuốnSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +44,9 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tựaSáchToolStripMenuItem,
             this.thểLoạiToolStripMenuItem,
-            this.nhàXuấtBảnToolStripMenuItem});
+            this.nhàXuấtBảnToolStripMenuItem,
+            this.tácGiảToolStripMenuItem,
+            this.cuốnSáchToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(790, 24);
@@ -77,6 +81,20 @@
             this.RB1.Size = new System.Drawing.Size(790, 385);
             this.RB1.TabIndex = 3;
             // 
+            // tácGiảToolStripMenuItem
+            // 
+            this.tácGiảToolStripMenuItem.Name = "tácGiảToolStripMenuItem";
+            this.tácGiảToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.tácGiảToolStripMenuItem.Text = "Tác giả";
+            this.tácGiảToolStripMenuItem.Click += new System.EventHandler(this.tácGiảToolStripMenuItem_Click);
+            // 
+            // cuốnSáchToolStripMenuItem
+            // 
+            this.cuốnSáchToolStripMenuItem.Name = "cuốnSáchToolStripMenuItem";
+            this.cuốnSáchToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.cuốnSáchToolStripMenuItem.Text = "Cuốn sách";
+            this.cuốnSáchToolStripMenuItem.Click += new System.EventHandler(this.cuốnSáchToolStripMenuItem_Click);
+            // 
             // UCSach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -99,5 +117,7 @@
         private System.Windows.Forms.ToolStripMenuItem thểLoạiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nhàXuấtBảnToolStripMenuItem;
         private System.Windows.Forms.Panel RB1;
+        private System.Windows.Forms.ToolStripMenuItem tácGiảToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cuốnSáchToolStripMenuItem;
     }
 }

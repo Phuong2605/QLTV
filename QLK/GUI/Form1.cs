@@ -25,7 +25,7 @@ namespace GUI
 
         private void btnSach_Click(object sender, EventArgs e)
         {
-            UserControl us = new UCTuaSach();
+            UserControl us = new UCSach();
             showControlND(us);
             btnSach.BackColor = Color.Turquoise;
             btnNghiepVu.BackColor = Color.PaleTurquoise;
@@ -34,10 +34,10 @@ namespace GUI
 
         private void btnNghiepVu_Click(object sender, EventArgs e)
         {
-            UserControl us = new UC_TacGia();
+            UserControl us = new UCNghiepvu();
             showControlND(us);
-            btnSach.BackColor = Color.Turquoise;
-            btnNghiepVu.BackColor = Color.PaleTurquoise;
+            btnSach.BackColor = Color.PaleTurquoise;
+            btnNghiepVu.BackColor = Color.Turquoise;
             btnMTS.BackColor = Color.PaleTurquoise;
         }
     }

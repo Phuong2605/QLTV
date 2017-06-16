@@ -67,7 +67,7 @@ namespace DTO
                 quequan = value;
             }
         }
-        public DataTable get_tacgia()
+        public static DataTable get_tacgia()
         {
             return DATA.get_tacgia();
         }

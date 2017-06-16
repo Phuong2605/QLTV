@@ -53,7 +53,7 @@ namespace DTO
                 tuasachma = value;
             }
         }
-        public DataTable get_cuonsach()
+        public static DataTable get_cuonsach()
         {
             return DATA.get_cuonsach();
         }

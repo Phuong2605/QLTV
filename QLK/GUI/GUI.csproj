@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCNghiepvu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCNghiepvu.Designer.cs">
+      <DependentUpon>UCNghiepvu.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCNhaXuatBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCNghiepvu.resx">
+      <DependentUpon>UCNghiepvu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCNhaXuatBan.resx">
       <DependentUpon>UCNhaXuatBan.cs</DependentUpon>

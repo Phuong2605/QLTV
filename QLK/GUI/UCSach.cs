@@ -31,6 +31,8 @@ namespace GUI
             tựaSáchToolStripMenuItem.BackColor = Color.Teal;
             thểLoạiToolStripMenuItem.BackColor = Color.LightSeaGreen;
             nhàXuấtBảnToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            cuốnSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            tácGiảToolStripMenuItem.BackColor = Color.LightSeaGreen;
         }
 
         private void thểLoạiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -40,6 +42,8 @@ namespace GUI
             tựaSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
             thểLoạiToolStripMenuItem.BackColor = Color.Teal;
             nhàXuấtBảnToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            cuốnSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            tácGiảToolStripMenuItem.BackColor = Color.LightSeaGreen;
         }
 
         private void nhàXuấtBảnToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +53,30 @@ namespace GUI
             tựaSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
             thểLoạiToolStripMenuItem.BackColor = Color.LightSeaGreen;
             nhàXuấtBảnToolStripMenuItem.BackColor = Color.Teal;
+            cuốnSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            tácGiảToolStripMenuItem.BackColor = Color.LightSeaGreen;
+        }
+
+        private void tácGiảToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UserControl us = new UC_TacGia();
+            showControlND(us);
+            tựaSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            thểLoạiToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            nhàXuấtBảnToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            cuốnSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            tácGiảToolStripMenuItem.BackColor = Color.Teal;
+        }
+
+        private void cuốnSáchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UserControl us = new UC_CuonSach();
+            showControlND(us);
+            tựaSáchToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            thểLoạiToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            nhàXuấtBảnToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            tácGiảToolStripMenuItem.BackColor = Color.LightSeaGreen;
+            cuốnSáchToolStripMenuItem.BackColor = Color.Teal;
         }
     }
 }

@@ -55,7 +55,7 @@ namespace GUI
 
         void HienThi()
         {
-            DataTable dt = tg.get_tacgia();
+            DataTable dt = DTO.TacGia.get_tacgia();
             dgvTacgia.DataSource = dt;
         }
 
@@ -130,7 +130,9 @@ namespace GUI
             {
                 try
                 {
-                    tg.Ma = Int32.Parse(txtMa.Text);
+                    int a;
+                    int.TryParse(txtMa.Text, out a);
+                    tg.Ma = a;
                     tg.Ten = txtTen.Text;
                     tg.Gioitinh = cboGioitinh.Text;
                     tg.Quequan = txtQuequan.Text;
@@ -149,7 +151,9 @@ namespace GUI
             {
                 try
                 {
-                    tg.Ma = Int32.Parse(txtMa.Text);
+                    int a;
+                    int.TryParse(txtMa.Text, out a);
+                    tg.Ma = a;
                     tg.Ten = txtTen.Text;
                     tg.Gioitinh = cboGioitinh.Text;
                     tg.Quequan = txtQuequan.Text;

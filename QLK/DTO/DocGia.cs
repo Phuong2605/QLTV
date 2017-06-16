@@ -81,7 +81,7 @@ namespace DTO
                 sodienthoai = value;
             }
         }
-        public DataTable get_docgia()
+        public static DataTable get_docgia()
         {
             return DATA.get_docgia();
         }
