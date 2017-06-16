@@ -34,9 +34,9 @@
             this.btnMTS = new System.Windows.Forms.Button();
             this.btnNghiepVu = new System.Windows.Forms.Button();
             this.btnSach = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.RenderBody = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -99,6 +99,7 @@
             this.btnNghiepVu.Text = "Quản Lý Nghiệp Vụ";
             this.btnNghiepVu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNghiepVu.UseVisualStyleBackColor = true;
+            this.btnNghiepVu.Click += new System.EventHandler(this.btnNghiepVu_Click);
             // 
             // btnSach
             // 
@@ -113,14 +114,6 @@
             this.btnSach.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSach.UseVisualStyleBackColor = true;
             this.btnSach.Click += new System.EventHandler(this.btnSach_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackgroundImage = global::GUI.Properties.Resources.ưew;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(136, 114);
-            this.panel4.TabIndex = 1;
             // 
             // label2
             // 
@@ -137,6 +130,14 @@
             this.RenderBody.Name = "RenderBody";
             this.RenderBody.Size = new System.Drawing.Size(790, 416);
             this.RenderBody.TabIndex = 2;
+            // 
+            // panel4
+            // 
+            this.panel4.BackgroundImage = global::GUI.Properties.Resources.ưew;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(136, 114);
+            this.panel4.TabIndex = 1;
             // 
             // Form1
             // 

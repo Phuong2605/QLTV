@@ -72,6 +72,24 @@
     <Compile Include="UCTuaSach.Designer.cs">
       <DependentUpon>UCTuaSach.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_CuonSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_CuonSach.Designer.cs">
+      <DependentUpon>UC_CuonSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_DocGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DocGia.Designer.cs">
+      <DependentUpon>UC_DocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_TacGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_TacGia.Designer.cs">
+      <DependentUpon>UC_TacGia.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +111,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCTuaSach.resx">
       <DependentUpon>UCTuaSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_CuonSach.resx">
+      <DependentUpon>UC_CuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DocGia.resx">
+      <DependentUpon>UC_DocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_TacGia.resx">
+      <DependentUpon>UC_TacGia.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
